@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build:nest": "nest build",
+    "build:nest": "nest build && bash infra/zeabur/build.sh",
     "build": "turbo run build:nest",
     "format": "prettier --write \"**/*.{ts,js}\"",
     "dev:nest": "nest start --watch",
