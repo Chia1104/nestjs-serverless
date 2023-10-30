@@ -39,3 +39,5 @@ lerna-debug.log*
 .turbo
 
 .serverless
+.vercel
+.zeabur
