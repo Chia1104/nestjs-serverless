@@ -7,7 +7,7 @@ plugins:
 
 provider:
   name: aws
-  Runtime: nodejs18.x
+  Runtime: nodejs16.x
 
 functions:
   main:
