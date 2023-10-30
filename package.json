@@ -55,8 +55,6 @@
     "prettier": "^3.0.3",
     "serverless": "^3.36.0",
     "serverless-offline": "^13.2.0",
-    "serverless-plugin-optimize": "4.2.1-rc.1",
-    "serverless-plugin-typescript": "^2.1.5",
     "supertest": "^6.3.3",
     "ts-jest": "^29.1.1",
     "ts-loader": "^9.5.0",

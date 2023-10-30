@@ -1,9 +1,8 @@
-service:
-  name: nestjs-serverless
+org: chia1104
+app: nestjs-serverless
+service: hello-world
 
 plugins:
-  - serverless-plugin-typescript
-  - serverless-plugin-optimize
   - serverless-offline
 
 provider:
