@@ -8,8 +8,9 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build:nest": "nest build -b swc",
-    "zeabur-build": "nest build -b swc -p tsconfig.zeabur-sls.json && node infra/zeabur/post-build.js",
+    "zeabur-sls-build": "nest build -b swc -p tsconfig.zeabur-sls.json && node infra/zeabur/post-build.js",
     "build": "turbo run build:nest",
+    "zeabur-sls:build": "turbo run zeabur-sls-build",
     "format": "prettier --write \"**/*.{ts,js}\"",
     "dev:nest": "nest start --watch",
     "dev": "turbo run dev:nest",

@@ -5,6 +5,10 @@
       "outputs": ["dist"],
       "inputs": ["package.json", "src/**"]
     },
+    "zeabur-sls-build": {
+      "outputs": [".zeabur/output/functions/index.func", ".zeabur"],
+      "inputs": ["package.json", "src/**", "infra/zeabur/**"]
+    },
     "dev:nest": {
       "cache": false,
       "persistent": true
