@@ -1,3 +1,3 @@
-const { handler } = './lambda.js';
+const { handler } = require('./lambda');
 
 module.exports = handler;
