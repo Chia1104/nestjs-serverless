@@ -1,3 +1,3 @@
-const handler = require('./main');
+const { handler } = require('./lambda');
 
 module.exports = handler;
