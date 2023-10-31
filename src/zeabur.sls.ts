@@ -15,7 +15,9 @@ async function bootstrap() {
 
     nestApp.enableCors();
 
-    cachedServer = await nestApp.init();
+    await nestApp.init();
+
+    cachedServer = expressApp;
   }
 
   return cachedServer;
