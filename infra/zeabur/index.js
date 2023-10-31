@@ -1,3 +1,3 @@
-const { handler } = require('./lambda');
+const handler = require('./zeabur.sls');
 
 module.exports = handler;
