@@ -21,4 +21,6 @@ async function bootstrap() {
   return cachedServer;
 }
 
-export const handler = bootstrap
+export const handler = async (ctx: any) => {
+  return await bootstrap();
+};
