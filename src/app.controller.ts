@@ -11,4 +11,11 @@ export class AppController {
   }): string {
     return this.appService.getHello(query.name);
   }
+
+  @Get('/test')
+  getTest(@Query() query: {
+    name?: string;
+  }): string {
+    return `Test ${query.name}!`;
+  }
 }
