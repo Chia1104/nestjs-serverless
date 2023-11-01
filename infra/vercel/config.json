@@ -2,8 +2,9 @@
   "version": 3,
   "routes": [
     {
-      "src": "/test",
-      "methods": ["GET", "POST", "PUT", "DELETE"]
+      "src": "/(.*)",
+      "methods": ["GET", "POST", "PUT", "DELETE"],
+      "continue": true
     }
   ]
 }
