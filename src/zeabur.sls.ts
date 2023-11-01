@@ -23,6 +23,7 @@ async function bootstrap() {
   return cachedServer;
 }
 
-bootstrap();
-
-export default cachedServer;
+export const handler = async (req: any, res: any) => {
+  const server = await bootstrap();
+  return server(req, res);
+}
