@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./.vercel/output/functions/index.func"
+  },
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}

@@ -9,6 +9,10 @@
       "outputs": [".zeabur/output/functions/index.func", ".zeabur"],
       "inputs": ["package.json", "src/**", "infra/zeabur/**"]
     },
+    "vercel-sls-build": {
+      "outputs": [".vercel/output/functions/index.func", ".vercel"],
+      "inputs": ["package.json", "src/**", "infra/vercel/**"]
+    },
     "dev:nest": {
       "cache": false,
       "persistent": true
