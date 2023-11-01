@@ -1,3 +1,3 @@
-const { handler } = require('./serverless');
+const { handler } = require("./serverless");
 
 module.exports = handler;

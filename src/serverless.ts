@@ -1,5 +1,5 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './modules/app.module';
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./modules/app.module";
 
 let cachedServer: any;
 
@@ -19,4 +19,4 @@ async function bootstrap() {
 export const handler = async (req: any, res: any) => {
   const server = await bootstrap();
   return server(req, res);
-}
+};
