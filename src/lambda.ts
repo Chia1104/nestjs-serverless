@@ -1,8 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import serverlessExpress from '@vendia/serverless-express';
 import { Context, Handler } from 'aws-lambda';
-
-import { AppModule } from './app.module';
+import { AppModule } from './modules/app.module';
 
 let cachedServer: Handler;
 

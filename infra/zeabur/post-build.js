@@ -8,6 +8,6 @@ fs.cpSync('node_modules', '.zeabur/output/functions/index.func/node_modules', {r
 console.info('Copying package.json into .zeabur/output/functions/index.func')
 fs.cpSync('package.json', '.zeabur/output/functions/index.func/package.json')
 
-// copy index.js (overwritten entry file) into function output directory
-console.info('Copying infra/zeabur/index.js into .zeabur/output/functions/index.func')
-fs.cpSync('infra/zeabur/index.js', '.zeabur/output/functions/index.func/index.js')
+// copy entry.js (overwritten entry file) into function output directory
+console.info('Copying infra/shared/entry.js into .zeabur/output/functions/index.func')
+fs.cpSync('infra/shared/entry.js', '.zeabur/output/functions/index.func/index.js')
