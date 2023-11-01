@@ -9,7 +9,7 @@
     "prebuild": "rimraf dist",
     "build:nest": "nest build -b swc",
     "zeabur-sls-build": "nest build -b swc -p tsconfig.zeabur-sls.json && pnpm sls-pre-build && node infra/zeabur/post-build.js",
-    "sls-pre-build": "rm -rf node_modules && pnpm i --prod",
+    "sls-pre-build": "rm -rf node_modules && pnpm i --prod --ignore-scripts",
     "vercel-sls-build": "nest build -b swc -p tsconfig.vercel-sls.json && pnpm sls-pre-build && node infra/vercel/post-build.js",
     "build": "turbo run build:nest",
     "zeabur-sls:build": "turbo run zeabur-sls-build",
