@@ -1,6 +1,6 @@
 {
   "runtime": "nodejs18.x",
-  "handler": "lambda.handler",
+  "handler": "index.js",
   "launcherType": "Nodejs",
   "shouldAddHelpers": true
 }

@@ -5,8 +5,12 @@ const fs = require('fs');
 // fs.cpSync('node_modules', '.vercel/output/functions/index.func/node_modules', {recursive: true, verbatimSymlinks: true})
 
 // copy package.json into function output directory
-// console.info('Copying package.json into .vercel/output/functions/index.func')
-// fs.cpSync('package.json', '.vercel/output/functions/index.func/package.json')
+console.info('Copying package.json into .vercel/output/functions/index.func')
+fs.cpSync('infra/vercel/package.json', '.vercel/output/functions/index.func/package.json')
+
+// copy index.js (overwritten entry file) into function output directory
+console.info('Copying infra/vercel/index.js into .vercel/output/functions/index.func')
+fs.cpSync('infra/vercel/index.js', '.vercel/output/functions/index.func/index.js')
 
 // copy .vc-config.json into function output directory
 console.info('Copying .vc-config.json into .vercel/output/functions/index.func')

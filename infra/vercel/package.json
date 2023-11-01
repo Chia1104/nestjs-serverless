@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@nestjs/common": "^10.2.7",
+    "@nestjs/core": "^10.2.7",
+    "@nestjs/platform-express": "^10.2.7",
+    "@nestjs/platform-fastify": "^10.2.7",
+    "@vendia/serverless-express": "^4.10.4",
+    "aws-lambda": "^1.0.7",
+    "aws-lambda-fastify": "^2.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^5.0.5",
+    "rxjs": "^7.8.1"
+  }
+}
