@@ -10,4 +10,4 @@ fs.cpSync('package.json', '.vervel/output/functions/index.func/package.json')
 
 // copy .vc-config.json into function output directory
 console.info('Copying .vc-config.json into .vervel/output/functions/index.func')
-fs.cpSync('infra/zeabur/.vc-config.json', '.vervel/output/functions/index.func/.vc-config.json')
+fs.cpSync('infra/vervel/.vc-config.json', '.vervel/output/functions/index.func/.vc-config.json')
