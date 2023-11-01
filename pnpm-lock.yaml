@@ -26,6 +26,9 @@ dependencies:
   aws-lambda-fastify:
     specifier: ^2.2.0
     version: 2.2.0
+  express:
+    specifier: ^4.18.2
+    version: 4.18.2
   reflect-metadata:
     specifier: ^0.1.13
     version: 0.1.13
